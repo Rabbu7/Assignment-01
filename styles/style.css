@@ -63,8 +63,8 @@ body {
 
 .second-section-container {
   width: 1140px;
-  height: 1395px;
-  border: 2px solid red;
+  height: 1295px;
+  /* border: 2px solid red; */
   margin: 0 auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -75,7 +75,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding: 0px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   height: 1235px;
   margin: 97px 80px;
 }
@@ -86,6 +86,8 @@ body {
   line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
+  margin-top: 90px;
+  margin-bottom: 24px;
 }
 .second-section-content p {
   color: rgb(13, 19, 33);
@@ -95,4 +97,87 @@ body {
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
+  margin-bottom: 48px;
+}
+.second-section-items {
+  /* border: 2px solid green; */
+  width: 946px;
+  height: 336px;
+  border-radius: 16px;
+}
+.second-sec-item-1 {
+  width: 850px;
+  height: 240px;
+  margin: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.item-1-description {
+  width: 477px;
+  height: 220px;
+}
+
+.item-1-description h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.item-1-description p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.btn-2 {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  margin: 32px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 20px 12px 20px;
+}
+second-sec-item-2 {
+  position: static;
+  width: 850px;
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.item-2-description {
+  margin-top: -20%;
+  margin-left: 30%;
+}
+
+.item-2-description h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.item-2-description p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
 }
