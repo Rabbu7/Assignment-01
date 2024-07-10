@@ -16,7 +16,7 @@ body {
   /* border: 2px solid red; */
   margin: 0 auto;
 
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -321,7 +321,7 @@ second-sec-item-2 {
   margin: 0 auto;
   margin-top: 50px;
   border: 2px solid rgb(253, 249, 249);
-  background-image: url("/assets/handshake.jpg");
+  background-image: url("../assets/handshake.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
