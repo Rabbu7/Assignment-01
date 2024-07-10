@@ -181,3 +181,50 @@ second-sec-item-2 {
   letter-spacing: 0%;
   text-align: left;
 }
+
+/* the inspiration styles */
+
+.third-section-container {
+  width: 1140px;
+  height: 775px;
+  margin: 0 auto;
+  height: 775px;
+  /* border: 2px solid red; */
+  margin-top: 88px;
+}
+.third-section-title h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.third-section-title p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+.video-content {
+  height: 585px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+}
+.video-content iframe {
+  width: 1076px;
+  height: 550px;
+  border-radius: 16px;
+  margin: 10px 0px;
+}
